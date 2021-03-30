@@ -5,7 +5,7 @@
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.pic16f18446-sensor-board-metal-detection",
         "version": "1.0.1",
-        "displayName": "Sensor Board Metal Detector",
+        "displayName": "PIC16F18446 Sensor Board Metal Detector",
         "projectName": "pic16f18446-sensor-board-metal-detection",
         "shortDescription": "In this project the board scans the metal detector LC circuit in order to find the peak (resonant) frequency. It then supplies a signal with that frequency using the NCO, and reads the ADCC. If a metal object approaches, it shifts the resonant frequency, and the ADCC value changes.",
         "ide": {
@@ -39,14 +39,15 @@
         "author": "Microchip",
         "subcategories": [
             [
-               "Peripherals", "ADCC"
+               "Peripherals",
+			   "ADCC"
             ]
         ],
         "peripherals": [
             "ADCC"
         ],
         "keywords": [
-            "LC resonant circuit"			
+            "Metal Detector"			
         ],
 		"additionalData": {
 			"longDescription": {
