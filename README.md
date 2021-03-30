@@ -7,9 +7,12 @@ The PIC16F184xx family has a new Analog to Digital Converter with Computation (A
 
 In this example we will be using the PIC16F18446 Sensor Board. Initially, the board scans the metal detector LC circuit in order to find the peak (resonant) frequency. It then supplies a signal with that frequency using the NCO, and reads the ADCC. If a metal object approaches, it shifts the resonant frequency, and the ADCC value changes. The demo has 2 operating modes. In the first mode, the 12-bit and 10-bit values are plotted in real time.
 
-<br><img src="images/display.png" width="600">
-
 When entering this mode, the first ADCC reading is used as an offset for the plots. The LCD backlight turns OFF after some time of inactivity, and turns back ON when the user presses a button. In the second mode, the buzzer is beeping at a variable time interval, according to the metal detector reading.
+
+## Related Documentation
+- [PIC16F18446 Product Family Page](https://www.microchip.com/design-centers/8-bit/pic-mcus/device-selection/pic16f18446)
+- [PIC16F18446 datasheet](http://ww1.microchip.com/downloads/en/DeviceDoc/40001985B.pdf) for more information or specifications.
+
 
 ## Software Used
 - MPLAB® X IDE 5.30 or newer [(microchip.com/mplab/mplab-x-ide)](http://www.microchip.com/mplab/mplab-x-ide)
